@@ -47,7 +47,7 @@ def create_structured_tables(tables):
             structured_table = structured_table[:2]
             combined_rows.append(combined_row)
         
-        # Append the structured table to the list
+        # Append the structured table to the list, add some test comments
         structured_tables.append(structured_table)
     
     return structured_tables, combined_rows
